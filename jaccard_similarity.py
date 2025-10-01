@@ -41,8 +41,8 @@ if __name__ == "__main__":
     print("\n--- Calculateur Interactif de Similitude de Jaccard ---")
     
     # Utilisation de input() pour lire l'entrée de l'utilisateur
-    p1 = input("Entrez la première phrase (A) : ")
-    p2 = input("Entrez la deuxième phrase (B) : ")
+    p1 = str(input("Entrez la première phrase (A) : "))
+    p2 = str(input("Entrez la deuxième phrase (B) : "))
 
     # Calcul du score
     score = calculate_jaccard_similarity(p1, p2)
